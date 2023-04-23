@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.contentContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    width: 80vw;
+    margin: 5vh auto 10vh;
+}
+
+.topicContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.conversationsContainer {
+    flex: 1;
+    height: 100%;
+}

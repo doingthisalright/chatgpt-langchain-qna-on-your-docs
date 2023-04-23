@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.keystrokesImage {
+    min-height: 150px;
+    max-height: 10vh;
+    width: fit-content;
+}
+
+.createdByContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.youtubeImage {
+    min-height: 20px;
+    max-height: 30px;
+    cursor: pointer;
+    width: auto;
+}
