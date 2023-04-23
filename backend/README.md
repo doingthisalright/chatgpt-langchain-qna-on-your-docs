@@ -40,7 +40,13 @@ npm run dev
 
 Response:
 ```
-TODO
+{
+    "response": [
+        "Ethereum Whitepaper",
+        "React Documentation",
+        "Wizard of Oz"
+    ]
+}
 ```
 
 ### Ingest Documents
@@ -56,7 +62,9 @@ Request:
 
 Response:
 ```
-TODO
+{
+    "status": "Done"
+}
 ```
 
 ### Query Documents
@@ -67,13 +75,15 @@ Request:
 ```
 {
     "directoryName": "Wizard of Oz",
-    "query": "Who is Dorothy?"
+    "query": "Where is Dorothy?"
 }
 ```
 
 Response:
 ```
-TODO
+{
+    "response": "Dorothy is at home in Kansas."
+}
 ```
 
 ---

@@ -46,58 +46,6 @@ Run the following command to start the server
 npm run dev
 ```
 
-### Available APIs:
-
-#### Get list of topics
-
-`GET localhost:3000/api/topics`
-
-Response:
-```
-{
-    "response": [
-        "Wizard of Oz"
-    ]
-}
-```
-
-#### Ingest Documents
-
-`POST localhost:3000/api/ingest`
-
-Request:
-```
-{
-    "directoryName": "Wizard of Oz"
-}
-```
-
-Response:
-```
-{
-    "status": "Done"
-}
-```
-
-#### Query Documents
-
-`POST localhost:3000/api/query`
-
-Request:
-```
-{
-    "directoryName": "Wizard of Oz",
-    "query": "Where is Dorothy?"
-}
-```
-
-Response:
-```
-{
-    "response": "Dorothy is at home in Kansas."
-}
-```
-
 ## Frontend
 
 Uses NextJS and ReactJS.
